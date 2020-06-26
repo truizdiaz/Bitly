@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ShortUrlService {
   urlBitly = 'https://api-ssl.bitly.com/v4/bitlinks';
-  token = '';
+  token = 'e06ee00fac1f1f108cee64b3967a703c8f4aa27a';
 
   constructor(private http: HttpClient) { }
 
